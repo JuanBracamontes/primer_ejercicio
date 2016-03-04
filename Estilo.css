@@ -1,0 +1,13 @@
+#arriba{
+	background-color: #EAFAF1;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+}
+#cuerpo{
+	background-color:#D5DBDB;
+	text-align: center;
+}
+.color{
+	color: #85C1E9;
+}

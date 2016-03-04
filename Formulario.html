@@ -1,0 +1,44 @@
+<html>	
+	<link rel="stylesheet" type="text/css" href="Estilo.css">
+	<head>
+		<title>Aerolineas</title>
+	</head>
+	<div id="arriba">
+		<h1 class="color">Formulario</h1>
+	</div>	
+	<!--<script type="text/javascript">
+		var lista = getElementById('opt');
+		var indiceSeleccionado = lista.selectedIndex;
+		var ListaOpcion = lista.options[indiceSeleccionado];
+		var valor = ListaOpcion.value;
+		alert("Aerolinea Seleccionada: "+ valor);
+	</script>!-->
+	
+	<body id="cuerpo">
+		<form>
+		Nombre Completo:<br>
+		<input type="text" size="30" maxlength="31"><br>
+		Edad:<br>
+		<input type="text" size="30" maxlength="7"><br>
+		Telefono:<br>
+		<input type="text" size="30" maxlength="10"><br><br>
+		Selecciona La agencia de Viajes:
+		<select id="opt">
+			<option selected>-Selecciona una aerolinea-</option>
+			<option value="1">AeroMexico</option>
+			<option value="2">Volaris</option>
+			<option value="3">Interjet</option>
+			<option value="4">Mexicana</option>
+		</select><br><br>
+
+		Selecciona el tipo de viaje:<br><br>
+		<input type="radio" value="0" name="tipo">Viaje Redondo
+		<input type="radio" value="1" name="tipo">Viaje de ida
+		<br><br>
+		Deja una Sujerencia o Comentario Aqui:<br>
+		<textarea cols="70" rows="5"></textarea><br>
+		<input type="submit" value="Enviar">
+		<input type="reset" value="Borrar">
+		</form>
+	</body>
+</html>
